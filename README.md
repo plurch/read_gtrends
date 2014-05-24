@@ -23,7 +23,7 @@ Dependencies
 Usage
 --------
 
-Example:
+### Example:
 
     > from read_gtrends import read_gtrends
     > my_series = read_gtrends.read_gtrends('path/to/report.csv')
@@ -37,4 +37,9 @@ Example:
     > type(my_series)
         pandas.core.series.Series
 
+### Run unit tests:
 
+    > python -m unittest discover
+        Ran 1 test in 0.055s
+
+        OK
